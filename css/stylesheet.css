@@ -19,18 +19,21 @@
 
 .cont {
     display: flex;
-    flex: auto;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
+    align-content: center;
 }
 
-.image {
-	width: 375px;
-    height: 375px;
-    flex-grow: 1;
-    min-height: auto;
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    object-fit: cover;
 }
 
 img {
@@ -61,7 +64,7 @@ img:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .banner {
     display: flex;
