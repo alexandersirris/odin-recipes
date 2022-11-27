@@ -20,7 +20,7 @@
 .cont {
     display: flex;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .grid {
